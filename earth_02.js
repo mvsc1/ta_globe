@@ -51,7 +51,7 @@
 		return new THREE.Mesh(
 			new THREE.SphereGeometry(radius, segments, segments),
 			new THREE.MeshPhongMaterial({
-				map: 	new THREE.ImageUtils.loadTexture('diffuse_02.jpg'),
+				map: 	new THREE.ImageUtils.loadTexture('ta_globe/diffuse_02.jpg'),
 			})
 		);
 	}
