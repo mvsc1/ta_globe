@@ -51,7 +51,7 @@
 		return new THREE.Mesh(
 			new THREE.SphereGeometry(radius, segments, segments),
 			new THREE.MeshPhongMaterial({
-
+				map: 	new THREE.ImageUtils.loadTexture('images/200316_TA_WebGl_02.jpg'),
 				
 			})
 		);
